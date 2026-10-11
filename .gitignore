@@ -1,0 +1,6 @@
+.obsidian/
+.DS_Store
+.idea/
+.vscode/
+.env
+*.secret
