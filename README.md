@@ -4,7 +4,7 @@
 
 ## Оглавление
 
-[Занятия](#занятия) · [Практические работы](#практические-работы) · [Структура](#структура)
+[Конспекты и домашние работы](#занятия) · [Отчёты и материалы](#практические-работы) · [Структура репозитория](#структура)
 
 ### Занятия
 
@@ -12,8 +12,8 @@
 | :-----: | --- | --- |
 | 1 | [Установка Ubuntu в VirtualBox](lesson_01/class/ubuntu-in-virtualbox.md) | — |
 | 2 | [История, назначение и виды операционных систем](lesson_02/class/history-and-types-of-operating-systems.md) | — |
-| 3 | [Файловая система Linux и FHS](lesson_03/class/linux-filesystem-and-fhs.md) | [Задание и решение](lesson_03/hw/hw_03.md) |
-| 4 | [Файлы, маски, поиск и справка](lesson_04/class/files-wildcards-search-and-help.md) | — |
+| 3 | [Файловая система Linux и FHS](lesson_03/class/linux-filesystem-and-fhs.md) | [Отчёт и ответы](lesson_03/hw/hw_01.md) |
+| 4 | [Файлы, маски, поиск и справка](lesson_04/class/files-wildcards-search-and-help.md) | [Отчёт и ответы](lesson_04/hw/README.md) |
 | 5 | [Пользователи, группы и sudo](lesson_05/class/users-groups-and-sudo.md) | — |
 | 6 | [Права доступа, владельцы и umask](lesson_06/class/permissions-ownership-and-umask.md) | — |
 | 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | — |
@@ -21,9 +21,10 @@
 
 ### Практические работы
 
-| № | README |
-| :---: | --- |
-| 1 | [README.md](practice_or_lab/linux-fhs-lab/README.md) |
+| Занятие | Отчёт | Дополнительные материалы |
+| :-----: | --- | --- |
+| 3 | [Файловая система Linux](lesson_03/hw/hw_01.md) | — |
+| 4 | [Файлы, маски, поиск и справка](lesson_04/hw/README.md) | [Журнал команд](lesson_04/hw/journal.md) · [Ответы](lesson_04/hw/answers.txt) |
 
 ## Структура
 
@@ -38,9 +39,32 @@
 │       │   ├── kernel-architectures.jpg
 │       │   └── operating-system-history.jpg
 │       ├── lesson_03/
+│       │   ├── 01-root.png
+│       │   ├── 02-home.png
+│       │   ├── 03-system.png
+│       │   ├── 04-programs.png
+│       │   ├── 05-var.png
+│       │   ├── 06-dev.png
+│       │   ├── 07-proc.png
+│       │   ├── 08-sys.png
+│       │   ├── 09-links.png
+│       │   ├── 10-space.png
+│       │   ├── 11-mount-before.png
+│       │   ├── 12-mount-after.png
+│       │   ├── 13-model.png
 │       │   ├── fhs-directories.jpg
 │       │   └── program-directories.jpg
 │       ├── lesson_04/
+│       │   ├── 01-site-tree.png
+│       │   ├── 02-inbox.png
+│       │   ├── 03-cp-i.png
+│       │   ├── 04-rmdir.png
+│       │   ├── 05-masks.png
+│       │   ├── 06-find.png
+│       │   ├── 07-locate.png
+│       │   ├── 08-man.png
+│       │   ├── 09-sorted.png
+│       │   ├── 10-check.png
 │       │   ├── filename-wildcards.jpg
 │       │   └── find-and-locate.jpg
 │       ├── lesson_05/
@@ -67,11 +91,14 @@
 │   ├── class/
 │   │   └── linux-filesystem-and-fhs.md
 │   └── hw/
-│       └── hw_03.md
+│       └── hw_01.md
 ├── lesson_04/
 │   ├── class/
 │   │   └── files-wildcards-search-and-help.md
 │   └── hw/
+│       ├── README.md
+│       ├── answers.txt
+│       └── journal.md
 ├── lesson_05/
 │   ├── class/
 │   │   └── users-groups-and-sudo.md
@@ -88,51 +115,6 @@
 │   ├── class/
 │   │   └── process-diagnostics-and-resources.md
 │   └── hw/
-├── practice_or_lab/
-│   └── linux-fhs-lab/
-│       ├── config/
-│       │   └── app.conf
-│       ├── data/
-│       │   ├── info-hard.txt
-│       │   └── info.txt
-│       ├── model-root/
-│       │   ├── etc/
-│       │   │   └── shop-api/
-│       │   │       └── app.conf
-│       │   ├── run/
-│       │   │   └── shop-api/
-│       │   ├── usr/
-│       │   │   └── local/
-│       │   │       └── bin/
-│       │   └── var/
-│       │       ├── lib/
-│       │       │   └── shop-api/
-│       │       │       └── info.txt
-│       │       └── log/
-│       │           └── shop-api/
-│       │               └── app.log
-│       ├── mount-demo/
-│       │   └── before.txt
-│       ├── screenshots/
-│       │   ├── 01-root.png
-│       │   ├── 02-home.png
-│       │   ├── 03-system.png
-│       │   ├── 04-programs.png
-│       │   ├── 05-var.png
-│       │   ├── 06-dev.png
-│       │   ├── 07-proc.png
-│       │   ├── 08-sys.png
-│       │   ├── 09-links.png
-│       │   ├── 10-space.png
-│       │   ├── 11-mount-before.png
-│       │   ├── 12-mount-after.png
-│       │   └── 13-model.png
-│       ├── tmp/
-│       ├── CHEATSHEET.md
-│       ├── PRACTICE.md
-│       ├── README.md
-│       ├── info-link.txt -> data/info.txt
-│       └── saved-uptime.txt
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
