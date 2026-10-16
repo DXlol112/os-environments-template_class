@@ -12,7 +12,7 @@
 | 4 | [Файлы, маски, поиск и справка](lesson_04/class/files-wildcards-search-and-help.md) | [Отчёт и ответы](lesson_04/hw/README.md) |
 | 5 | [Пользователи, группы и sudo](lesson_05/class/users-groups-and-sudo.md) | [Отчёт и ответы](lesson_05/hw/README.md) |
 | 6 | [Права доступа, владельцы и umask](lesson_06/class/permissions-ownership-and-umask.md) | [Отчёт и ответы](lesson_06/hw/README.md) |
-| 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | — |
+| 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | [Отчёт и ответы](lesson_07/hw/README.md) |
 | 8 | [Диагностика процессов и управление ресурсами](lesson_08/class/process-diagnostics-and-resources.md) | — |
 
 ## Структура
@@ -81,6 +81,15 @@
 │       │   ├── permission-modes.jpg
 │       │   └── umask-default-permissions.jpg
 │       ├── lesson_07/
+│       │   ├── 01-process.png
+│       │   ├── 02-tree.png
+│       │   ├── 03-states.png
+│       │   ├── 04-jobs.png
+│       │   ├── 05-signals.png
+│       │   ├── 06-exit.png
+│       │   ├── 07-lab-tree.png
+│       │   ├── 08-lab-signals.png
+│       │   ├── 09-lab-check.png
 │       │   ├── process-signals.jpg
 │       │   └── process-states.jpg
 │       └── lesson_08/
@@ -125,6 +134,10 @@
 │   ├── class/
 │   │   └── processes-and-signals.md
 │   └── hw/
+│       ├── PRACTICE.md
+│       ├── README.md
+│       ├── procs-lab-check.sh
+│       └── states.md
 ├── lesson_08/
 │   ├── class/
 │   │   └── process-diagnostics-and-resources.md
