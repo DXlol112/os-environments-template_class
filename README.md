@@ -11,7 +11,7 @@
 | 3 | [Файловая система Linux и FHS](lesson_03/class/linux-filesystem-and-fhs.md) | [Отчёт и ответы](lesson_03/hw/hw_01.md) |
 | 4 | [Файлы, маски, поиск и справка](lesson_04/class/files-wildcards-search-and-help.md) | [Отчёт и ответы](lesson_04/hw/README.md) |
 | 5 | [Пользователи, группы и sudo](lesson_05/class/users-groups-and-sudo.md) | [Отчёт и ответы](lesson_05/hw/README.md) |
-| 6 | [Права доступа, владельцы и umask](lesson_06/class/permissions-ownership-and-umask.md) | — |
+| 6 | [Права доступа, владельцы и umask](lesson_06/class/permissions-ownership-and-umask.md) | [Отчёт и ответы](lesson_06/hw/README.md) |
 | 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | — |
 | 8 | [Диагностика процессов и управление ресурсами](lesson_08/class/process-diagnostics-and-resources.md) | — |
 
@@ -69,6 +69,15 @@
 │       │   ├── sudo-rule-fields.jpg
 │       │   └── user-account-fields.jpg
 │       ├── lesson_06/
+│       │   ├── 01-ls-l.png
+│       │   ├── 02-dir-rx.png
+│       │   ├── 03-dir-w.png
+│       │   ├── 04-chmod.png
+│       │   ├── 05-chown.png
+│       │   ├── 06-umask.png
+│       │   ├── 07-shop-dirs.png
+│       │   ├── 08-shop-access.png
+│       │   ├── 09-shop-check.png
 │       │   ├── permission-modes.jpg
 │       │   └── umask-default-permissions.jpg
 │       ├── lesson_07/
@@ -110,6 +119,8 @@
 │   ├── class/
 │   │   └── permissions-ownership-and-umask.md
 │   └── hw/
+│       ├── README.md
+│       └── permissions.md
 ├── lesson_07/
 │   ├── class/
 │   │   └── processes-and-signals.md
