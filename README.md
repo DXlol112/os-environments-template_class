@@ -119,8 +119,8 @@
 │   ├── class/
 │   │   └── permissions-ownership-and-umask.md
 │   └── hw/
-│       ├── PRACTICE.md
-│       └── README.md
+│       ├── README.md
+│       └── permissions.md
 ├── lesson_07/
 │   ├── class/
 │   │   └── processes-and-signals.md
