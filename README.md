@@ -15,6 +15,10 @@
 | 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | [Отчёт и ответы](lesson_07/hw/README.md) |
 | 8 | [Диагностика процессов и управление ресурсами](lesson_08/class/process-diagnostics-and-resources.md) | [Отчёт и ответы](lesson_08/hw/README.md) |
 
+## Связанные репозитории
+
+- [tz-01-helpdesk](https://github.com/DXlol112/tz-01-helpdesk) - эксплуатация сервера в паре
+
 ## Структура
 
 ```text
