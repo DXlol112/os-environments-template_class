@@ -13,7 +13,7 @@
 | 5 | [Пользователи, группы и sudo](lesson_05/class/users-groups-and-sudo.md) | [Отчёт и ответы](lesson_05/hw/README.md), [модель доступа](lesson_05/hw/access-model.md) |
 | 6 | [Права доступа, владельцы и umask](lesson_06/class/permissions-ownership-and-umask.md) | [Отчёт и ответы](lesson_06/hw/README.md), [таблица прав](lesson_06/hw/permissions.md) |
 | 7 | [Процессы: PID, состояния и сигналы](lesson_07/class/processes-and-signals.md) | [Отчёт и ответы](lesson_07/hw/README.md), [таблица состояний](lesson_07/hw/states.md) |
-| 8 | [Диагностика процессов и управление ресурсами](lesson_08/class/process-diagnostics-and-resources.md) | — |
+| 8 | [Диагностика процессов и управление ресурсами](lesson_08/class/process-diagnostics-and-resources.md) | [Отчёт и ответы](lesson_08/hw/README.md), [разбор инцидента](lesson_08/hw/postmortem.md) |
 
 ## Структура
 
@@ -93,6 +93,16 @@
 │       │   ├── process-signals.jpg
 │       │   └── process-states.jpg
 │       └── lesson_08/
+│           ├── 01-load.png
+│           ├── 02-top.png
+│           ├── 03-btop.png
+│           ├── 04-find.png
+│           ├── 05-nice.png
+│           ├── 06-time.png
+│           ├── 07-memory.png
+│           ├── 08-lab-find.png
+│           ├── 09-lab-fix.png
+│           ├── 10-lab-check.png
 │           ├── execution-time-metrics.jpg
 │           └── top-process-metrics.jpg
 ├── lesson_01/
@@ -142,6 +152,8 @@
 │   ├── class/
 │   │   └── process-diagnostics-and-resources.md
 │   └── hw/
+│       ├── README.md
+│       └── postmortem.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
